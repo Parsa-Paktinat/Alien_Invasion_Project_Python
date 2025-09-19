@@ -22,7 +22,7 @@ class AlienInvasion:
         self.bullets = pygame.sprite.Group()
         self.aliens = pygame.sprite.Group()
 
-        self._creat_fleet()
+        self._create_fleet()
 
         # Set the background color.
         self.bg_color = (150, 150, 150)
@@ -84,6 +84,7 @@ class AlienInvasion:
         for bullet in self.bullets.sprites():
             bullet.draw_bullet()
         self.ship.blitme()
+        self.aliens.draw(self.screen)
 
         # Make the most recently draw screen visible.
         pygame.display.flip()
@@ -97,6 +98,7 @@ class AlienInvasion:
         for bullet in self.bullets.copy():
             if bullet.rect.bottom < 0:
                 self.bullets.remove(bullet)
+
 
 if __name__ == '__main__':
     # Make a game instance and run the game.
