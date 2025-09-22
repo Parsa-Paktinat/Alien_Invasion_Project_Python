@@ -32,4 +32,6 @@ class Settings:
 
     def increase_speed(self):
         """Increase speed settings."""
-        
+        self.ship_speed *= self.speedup_scale
+        self.bullet_speed *= self.speedup_scale
+        self.alien_speed *= self.speedup_scale
