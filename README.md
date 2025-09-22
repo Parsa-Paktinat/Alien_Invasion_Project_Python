@@ -1,4 +1,4 @@
-# Alien Invasion Game
+# :alien Alien Invasion Game
 
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,6 +9,25 @@ This repository contains a simplified version of the game Alien Invasion. The ga
 * **Author:** Eric Matthes
 * **Official Website:** [No Starch Press](https://nostarch.com/python-crash-course-3rd-edition)
 
+---
+
+## ⚙️ Requirement
+
+- [Python 3](https://www.python.org/downloads/)
+- [Pygame](https://www.pygame.org/)
+
+---
+
+## 🎮 How to Play
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo```
+2. Run the game:
+    ```bash
+    python alien_invasion.py```
+  
 ---
 ## Credits 
 |  Student Name  |       School      | Student ID |
