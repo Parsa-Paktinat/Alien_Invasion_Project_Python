@@ -17,10 +17,13 @@ This repository contains a simplified version of the game Alien Invasion. The ga
 ## 🎮 How to Play
 
 1. Clone this repository:
+
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
-2. Run the game:
+   git clone https://github.com/your-username/Alien_Invasion_Project_Python.git
+   cd Alien_Invasion_Project_Python
+   
+3. Run the game:
+
     ```bash
     python alien_invasion.py
   
