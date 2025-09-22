@@ -1,4 +1,4 @@
-# :alien Alien Invasion Game
+# 👽 Alien Invasion Game
 
 [![Language](https://img.shields.io/badge/Language-Python-blue.svg)](https://python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
