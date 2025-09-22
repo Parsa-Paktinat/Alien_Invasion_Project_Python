@@ -9,6 +9,7 @@ from bullet import Bullet
 from alien import Alien
 from game_stats import GameStats
 from button import Button
+from scoreboard import Scoreboard
 
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
@@ -23,6 +24,7 @@ class AlienInvasion:
         pygame.display.set_caption("Alien Invasion")
 
         self.stats = GameStats(self)
+        self.sb = Scoreboard(self)
         self.ship = Ship(self)
         self.bullets = pygame.sprite.Group()
         self.aliens = pygame.sprite.Group()
@@ -137,6 +139,8 @@ class AlienInvasion:
         self.ship.blitme()
         self.aliens.draw(self.screen)
 
+        self.sb.show_score()
+
         if not self.game_active:
             self.play_button.draw_button()
 
@@ -158,6 +162,11 @@ class AlienInvasion:
     def _check_bullet_alien_collision(self):
         """Respond to bullet-alien collisions"""
         collisions = pygame.sprite.groupcollide(self.bullets, self.aliens, True, True)
+
+        if collisions:
+            self.stats.score += self.settings.alien_points
+            self.sb.prep_score()
+            
         if not self.aliens:
             # Destroy existing bullets and create new fleet.
             self.bullets.empty()
