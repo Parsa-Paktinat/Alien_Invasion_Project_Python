@@ -19,7 +19,7 @@ This repository contains a simplified version of the game Alien Invasion. The ga
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/Alien_Invasion_Project_Python.git
+   git clone https://github.com/Parsa-Paktinat/Alien_Invasion_Project_Python.git
    cd Alien_Invasion_Project_Python
    
 3. Run the game:
