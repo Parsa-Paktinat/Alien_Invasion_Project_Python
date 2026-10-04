@@ -29,10 +29,6 @@ This repository contains a simplified version of the game Alien Invasion. The ga
   
 ---
 ## Credits 
-|  Student Name  |       School      | Student ID |
-|:-------------- | :---------------- | :--------- |
-| Parsa Paktinat | EE Department, Sharif University of Technology |  403101518 |
-
-## License
-
-The code in this repository is licensed under the [MIT License](LICENSE).
+|  Student Name  |       School      |
+|:-------------- | :---------------- |
+| Parsa Paktinat | EE Department, Sharif University of Technology |
